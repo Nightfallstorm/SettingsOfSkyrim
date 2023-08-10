@@ -1,6 +1,8 @@
-# Skyrim Recursion FPS Fix
+# Settings Of Skyrim
 
-Fixes FPS lag when a papyrus function gets stuck in a recursion loop 
+SKSE Plugin to load custom INIs settings without the need to attach them to a plugin.
+Also supports loading custom INI preference settings, which previously was not possible without
+directly modifying the main INI file!
 
 ## Requirements
 * [CMake](https://cmake.org/)
@@ -24,9 +26,9 @@ Fixes FPS lag when a papyrus function gets stuck in a recursion loop
 
 ## Building
 ```
-git clone https://github.com/Nightfallstorm/Skyrim-Recursion-FPS-Fix
-cd Skyrim-Recursion-FPS-Fix
-cmake --preset RecursionFix
+git clone https://github.com/Nightfallstorm/SettingsOfSkyrim
+cd SettingsOfSkyrim
+cmake --preset SettingsOfSkyrim
 cmake --build build --config Release
 ```
 
