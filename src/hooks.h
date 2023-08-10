@@ -51,7 +51,6 @@ struct RunINIParseAfterESPINIParse
 		return inis;
 	}
 
-	// TODO: CLIB-NG's header doesn't account for the newest RE of INISettingCollection, wait for update
 	static inline void ParseINIs()
 	{
 		auto iniSettingsCollection = RE::INISettingCollection::GetSingleton();
